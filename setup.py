@@ -10,9 +10,11 @@ setup(
     install_requires=[
     ],
     extras_require={
+        'lint': [
+            'flake8',
+        ],
         'dev': [
             'autopep8',
-            'flake8',
             'rope',
         ],
     },
