@@ -13,6 +13,8 @@ setup(
         'lint': [
             'flake8',
         ],
+        'test': [
+        ],
         'dev': [
             'autopep8',
             'rope',
